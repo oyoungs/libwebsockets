@@ -1,6 +1,6 @@
 #!/bin/bash
 version=$1
-version=${version:-1.0.0}
+version=${version:-$(git describe --tags | grep -o '[0-9].[0-9].[0-9]')}
 mkdir -p install/usr/local
 mkdir -p install/DEBIAN
 
