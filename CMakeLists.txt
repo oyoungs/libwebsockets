@@ -66,7 +66,7 @@ option(LWS_SSL_CLIENT_USE_OS_CA_CERTS "SSL support should make use of the OS-ins
 #
 # Event library options (may select multiple, or none for default poll()
 #
-option(LWS_WITH_LIBEV "Compile with support for libev" OFF)
+option(LWS_WITH_LIBEV "Compile with support for libev" ON)
 option(LWS_WITH_LIBUV "Compile with support for libuv" OFF)
 option(LWS_WITH_LIBEVENT "Compile with support for libevent" OFF)
 #
